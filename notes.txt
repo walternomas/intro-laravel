@@ -1,2 +1,3 @@
 laravel new proyecto
 
+php artisan make:controller PageController
