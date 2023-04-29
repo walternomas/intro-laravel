@@ -30,3 +30,5 @@ php artisan breeze:install
     assets/app-820dd140.css
     assets/app-20106add.js
     Breeze scaffolding installed successfully.
+
+php artisan route:list --name=posts
