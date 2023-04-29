@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('blog', function () {
     // consultar la base de datos
@@ -21,11 +21,11 @@ Route::get('blog', function () {
     ];
 
     return view('blog', ['posts' => $posts]);
-});
+})->name('blog');
 
 Route::get('blog/{slug}', function ($slug) {
     // consultar la base de datos
     $post = $slug;
 
     return view('post', ['post' => $post]);
-});
+})->name('post');
