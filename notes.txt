@@ -9,3 +9,24 @@ php artisan migrate
 php artisan make:model -fc ---->se crea el modelo con su factory y su controlador.
 
 php artisan migrate:refresh --seed
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+    Which stack would you like to install?
+    blade
+    react
+    vue
+    api
+    Would you like to install dark mode support?
+    Would you prefer Pest tests instead of PHPUnit?
+    Installing and building Node dependencies.
+    > build
+    > vite build
+    building for production...
+    transforming...
+    rendering chunks...
+    mmanifest.json
+    assets/app-820dd140.css
+    assets/app-20106add.js
+    Breeze scaffolding installed successfully.
