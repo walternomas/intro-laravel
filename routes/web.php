@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /**
@@ -21,4 +22,10 @@ Route::get('blog/{slug}', function ($slug) {
     // consultar la base de datos
 
     return $slug;
+});
+
+Route::get('buscar', function (Request $request) {
+    // consultar la base de datos
+
+    return $request->all();
 });
