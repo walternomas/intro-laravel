@@ -5,3 +5,7 @@ php artisan make:controller PageController
 php artisan migrate
 php artisan make:migration create_posts_table
 php artisan migrate
+
+php artisan make:model -fc ---->se crea el modelo con su factory y su controlador.
+
+php artisan migrate:refresh --seed
