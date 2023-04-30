@@ -37,3 +37,14 @@ flaticon.com
 
 npm run dev
 npm run build
+
+composer require barryvdh/laravel-debugbar --dev
+
+.env
+    APP_DEBUG=false
+
+heroicons.com
+    user
+
+https://packagist.org/
+    debug
