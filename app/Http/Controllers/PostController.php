@@ -10,8 +10,12 @@ class PostController extends Controller
 {
     public function index()
     {
+        $user = auth()->user()->id;
+
         return view('posts.index', [
-            'posts' => Post::latest()->paginate()
+            'posts' => Post::where('user_id', $user)
+                ->latest()
+                ->paginate()
         ]);
     }
 
