@@ -32,3 +32,8 @@ php artisan breeze:install
     Breeze scaffolding installed successfully.
 
 php artisan route:list --name=posts
+
+flaticon.com
+
+npm run dev
+npm run build
